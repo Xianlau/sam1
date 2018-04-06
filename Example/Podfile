@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SamTabbarProgram_Example' do
+  pod 'SamTabbarProgram', :path => '../'
+
+  target 'SamTabbarProgram_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

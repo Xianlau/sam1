@@ -1,0 +1,16 @@
+PODS:
+  - SamTabbarProgram (0.1.0)
+
+DEPENDENCIES:
+  - SamTabbarProgram (from `../`)
+
+EXTERNAL SOURCES:
+  SamTabbarProgram:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SamTabbarProgram: 762484aab5a09c4d7340fb280f71012078ff2ad7
+
+PODFILE CHECKSUM: 194bfa9f0b5249239191acc27e23f0cc5e9a489f
+
+COCOAPODS: 1.4.0
