@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D258FC72077C14600563A4A /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D258FC52077C14600563A4A /* TestVC.m */; };
+		3D258FC82077C14600563A4A /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D258FC62077C14600563A4A /* TestVC2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		81496D1D012E9898B31118A4 /* Pods_SamTabbarProgram_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834359F2059B9FDFF1C9BEF0 /* Pods_SamTabbarProgram_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C4CCF2526E9E497DED8CBB2C /* Pods_SamTabbarProgram_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5605DF1E24756BC32DB85D03 /* Pods_SamTabbarProgram_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D258FC32077C14600563A4A /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		3D258FC42077C14600563A4A /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		3D258FC52077C14600563A4A /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		3D258FC62077C14600563A4A /* TestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
 		4CBB87DC6E00F31751C1EFBA /* Pods-SamTabbarProgram_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Tests/Pods-SamTabbarProgram_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		50D1F1B0DF7B7A63EC932AFB /* Pods-SamTabbarProgram_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Tests/Pods-SamTabbarProgram_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5605DF1E24756BC32DB85D03 /* Pods_SamTabbarProgram_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamTabbarProgram_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +68,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7958DBE8FDB9A4D8F3FE6B0E /* Pods-SamTabbarProgram_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Example/Pods-SamTabbarProgram_Example.release.xcconfig"; sourceTree = "<group>"; };
 		834359F2059B9FDFF1C9BEF0 /* Pods_SamTabbarProgram_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamTabbarProgram_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACA9C3082B4FADCCA1D06B98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE75D3830B96F8F7A4D4FCAA /* Pods-SamTabbarProgram_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Example/Pods-SamTabbarProgram_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CFE073A8C06DFF0D249EDBAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -145,7 +149,10 @@
 			children = (
 				6003F59C195388D20070C39A /* SamAppDelegate.h */,
 				6003F59D195388D20070C39A /* SamAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				3D258FC32077C14600563A4A /* TestVC.h */,
+				3D258FC52077C14600563A4A /* TestVC.m */,
+				3D258FC42077C14600563A4A /* TestVC2.h */,
+				3D258FC62077C14600563A4A /* TestVC2.m */,
 				6003F5A5195388D20070C39A /* SamViewController.h */,
 				6003F5A6195388D20070C39A /* SamViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -283,7 +290,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -407,6 +413,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D258FC82077C14600563A4A /* TestVC2.m in Sources */,
+				3D258FC72077C14600563A4A /* TestVC.m in Sources */,
 				6003F59E195388D20070C39A /* SamAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SamViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

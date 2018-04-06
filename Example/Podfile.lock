@@ -1,5 +1,5 @@
 PODS:
-  - SamTabbarProgram (1.1.1)
+  - SamTabbarProgram (1.1.3)
 
 DEPENDENCIES:
   - SamTabbarProgram (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SamTabbarProgram: 714a857bb4df1bbd3e0eb545ac616ca1c30dd682
+  SamTabbarProgram: 636be500ab862bb92f61c39c9b3746378bb1e355
 
 PODFILE CHECKSUM: 194bfa9f0b5249239191acc27e23f0cc5e9a489f
 

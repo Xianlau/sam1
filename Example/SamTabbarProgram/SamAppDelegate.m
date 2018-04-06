@@ -7,13 +7,27 @@
 //
 
 #import "SamAppDelegate.h"
+#import <SamTabbarProgram/SamTabbarProgramManager.h>
+#import "TestVC.h"
+#import "TestVC2.h"
+
 
 @implementation SamAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    ///////////
-    // Override point for customization after application launch.
+    UITabBarController *rootVC = [SamTabbarProgramManager rootTabBarCcontroller];
+    [SamTabbarProgramManager addChildVC:[TestVC new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
+    [SamTabbarProgramManager addChildVC:[UIViewController new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
+    [SamTabbarProgramManager addChildVC:[UIViewController new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
+    [SamTabbarProgramManager addChildVC:[UIViewController new] normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
+    
+    // 1.创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = rootVC;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
