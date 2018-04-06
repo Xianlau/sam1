@@ -40,7 +40,7 @@
 		4CBB87DC6E00F31751C1EFBA /* Pods-SamTabbarProgram_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Tests/Pods-SamTabbarProgram_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		50D1F1B0DF7B7A63EC932AFB /* Pods-SamTabbarProgram_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Tests/Pods-SamTabbarProgram_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5605DF1E24756BC32DB85D03 /* Pods_SamTabbarProgram_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamTabbarProgram_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AE58C3AFA4F5D1B6EFD7673 /* SamTabbarProgram.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SamTabbarProgram.podspec; path = ../SamTabbarProgram.podspec; sourceTree = "<group>"; };
+		5AE58C3AFA4F5D1B6EFD7673 /* SamTabbarProgram.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SamTabbarProgram.podspec; path = ../SamTabbarProgram.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SamTabbarProgram_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamTabbarProgram_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		7958DBE8FDB9A4D8F3FE6B0E /* Pods-SamTabbarProgram_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Example/Pods-SamTabbarProgram_Example.release.xcconfig"; sourceTree = "<group>"; };
 		834359F2059B9FDFF1C9BEF0 /* Pods_SamTabbarProgram_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamTabbarProgram_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACA9C3082B4FADCCA1D06B98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ACA9C3082B4FADCCA1D06B98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE75D3830B96F8F7A4D4FCAA /* Pods-SamTabbarProgram_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamTabbarProgram_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SamTabbarProgram_Example/Pods-SamTabbarProgram_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CFE073A8C06DFF0D249EDBAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFE073A8C06DFF0D249EDBAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
